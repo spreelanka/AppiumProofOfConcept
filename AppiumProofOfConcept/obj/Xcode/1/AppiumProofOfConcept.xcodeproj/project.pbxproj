@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FC1484D0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235254EB0000000000000000 /* UIKit.framework */; };
+		156EB8000000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F81E00000000000000000 /* MapKit.framework */; };
+		168A54180000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1B60B60000000000000000 /* Foundation.framework */; };
+		9F5366100000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8642FF00000000000000000 /* CoreGraphics.framework */; };
+		2120486E0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B1550C0000000000000000 /* Default-568h@2x.png */; };
+		3653B1060000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39E4BDA40000000000000000 /* Info.plist */; };
+		247E71F00000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 280F7E8E0000000000000000 /* Entitlements.plist */; };
+		12A932DA0000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163A3F780000000000000000 /* MainStoryboard.storyboard */; };
+		614152300000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 9A521C100000000000000000 /* AppDelegate.h */; };
+		79046C800000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B21536600000000000000000 /* AppDelegate.m */; };
+		3AFB29110000000000000000 /* AppiumProofOfConceptViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C35AF0000000000000000 /* AppiumProofOfConceptViewController.h */; };
+		2AD4FEBC0000000000000000 /* AppiumProofOfConceptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E660B5A0000000000000000 /* AppiumProofOfConceptViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C24F89500000000000000000 /* AppiumProofOfConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "AppiumProofOfConcept.app"; path = "AppiumProofOfConcept.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		235254EB0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		4E7F81E00000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		1A1B60B60000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		D8642FF00000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		24B1550C0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		39E4BDA40000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		280F7E8E0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		163A3F780000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		9A521C100000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		B21536600000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		3E8C35AF0000000000000000 /* AppiumProofOfConceptViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppiumProofOfConceptViewController.h"; path = "AppiumProofOfConceptViewController.h"; sourceTree = "<group>"; };
+		2E660B5A0000000000000000 /* AppiumProofOfConceptViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppiumProofOfConceptViewController.m"; path = "AppiumProofOfConceptViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF5A1160000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC1484D0000000000000000 /* UIKit.framework in Frameworks */,
+				156EB8000000000000000000 /* MapKit.framework in Frameworks */,
+				168A54180000000000000000 /* Foundation.framework in Frameworks */,
+				9F5366100000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200F12A40000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				AA8C6F000000000000000000 /* AppiumProofOfConcept */,
+				2AC2387E0000000000000000 /* Frameworks */,
+				155BECCA0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		155BECCA0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C24F89500000000000000000 /* AppiumProofOfConcept.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		2AC2387E0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				235254EB0000000000000000 /* UIKit.framework */,
+				4E7F81E00000000000000000 /* MapKit.framework */,
+				1A1B60B60000000000000000 /* Foundation.framework */,
+				D8642FF00000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		AA8C6F000000000000000000 /* AppiumProofOfConcept */ = {
+			isa = PBXGroup;
+			children = (
+				9A521C100000000000000000 /* AppDelegate.h */,
+				3E8C35AF0000000000000000 /* AppiumProofOfConceptViewController.h */,
+				24B1550C0000000000000000 /* Default-568h@2x.png */,
+				280F7E8E0000000000000000 /* Entitlements.plist */,
+				39E4BDA40000000000000000 /* Info.plist */,
+				163A3F780000000000000000 /* MainStoryboard.storyboard */,
+				9723EA500000000000000000 /* Supporting Files */,
+			);
+			name = "AppiumProofOfConcept";
+			sourceTree = "<group>";
+		};
+		9723EA500000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B21536600000000000000000 /* AppDelegate.m */,
+				2E660B5A0000000000000000 /* AppiumProofOfConceptViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF325D00000000000000000 /* AppiumProofOfConcept */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171D2BB00000000000000000 /* Build configuration list for PBXNativeTarget "AppiumProofOfConcept" */;
+			buildPhases = (
+				2E2062000000000000000000 /* Sources */,
+				3FF5A1160000000000000000 /* Frameworks */,
+				170B018B0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppiumProofOfConcept";
+			productName = "AppiumProofOfConcept";
+			productReference = C24F89500000000000000000 /* AppiumProofOfConcept.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10C0C8300000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 36BEACE10000000000000000 /* Build configuration list for PBXProject "AppiumProofOfConcept" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 200F12A40000000000000000;
+			productRefGroup = 155BECCA0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF325D00000000000000000 /* AppiumProofOfConcept */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		170B018B0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2120486E0000000000000000 /* Default-568h@2x.png in Resources */,
+				3653B1060000000000000000 /* Info.plist in Resources */,
+				247E71F00000000000000000 /* Entitlements.plist in Resources */,
+				12A932DA0000000000000000 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E2062000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614152300000000000000000 /* AppDelegate.h in Sources */,
+				79046C800000000000000000 /* AppDelegate.m in Sources */,
+				3AFB29110000000000000000 /* AppiumProofOfConceptViewController.h in Sources */,
+				2AD4FEBC0000000000000000 /* AppiumProofOfConceptViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BE55CB20000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		2C0B87070000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "AppiumProofOfConcept";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36BEACE10000000000000000 /* Build configuration list for PBXProject "AppiumProofOfConcept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE55CB20000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		171D2BB00000000000000000 /* Build configuration list for PBXNativeTarget "AppiumProofOfConcept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0B87070000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10C0C8300000000000000000 /* Project object */;
+}

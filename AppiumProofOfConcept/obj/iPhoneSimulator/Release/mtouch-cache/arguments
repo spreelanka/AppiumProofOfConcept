@@ -1,0 +1,26 @@
+# Version: 8.4.0.43 (840a925)
+# [first argument, ignore] # /Users/nh8589/Projects/AppiumProofOfConcept/AppiumProofOfConcept/bin/iPhoneSimulator/Release/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/nh8589/Projects/AppiumProofOfConcept/AppiumProofOfConcept/obj/iPhoneSimulator/Release/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/nh8589/Projects/AppiumProofOfConcept/AppiumProofOfConcept/bin/iPhoneSimulator/Release/AppiumProofOfConcept.app \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-nolink \
+	-sdk \
+	8.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/nh8589/Projects/AppiumProofOfConcept/AppiumProofOfConcept/bin/iPhoneSimulator/Release/AppiumProofOfConcept.exe \
