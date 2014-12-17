@@ -9,6 +9,8 @@ using OpenQA.Selenium.Appium.Appium.Enums;
 
 using OpenQA.Selenium;
 using System.Threading;
+using System.Text.RegularExpressions;
+using System.Reflection;
 
 namespace AppiumTests
 {
@@ -43,9 +45,12 @@ namespace AppiumTests
 		[TestFixtureSetUp]
 		public void BeforeAll ()
 		{
-//			var path = "/Users/nh8589/Library/Developer/CoreSimulator/Devices/66B1547F-8709-4425-8743-6C843F332303/data/Containers/Bundle/Application/01E7A519-BAA5-494E-8E47-87354C0B7811/AppiumProofOfConcept.app";
-//			var path = "/Users/nh8589/Projects/AppiumProofOfConcept/AppiumProofOfConcept/bin/iPhoneSimulator/Release/AppiumProofOfConcept.app";
-			var path = "/Users/nh8589/Projects/AppiumProofOfConcept/AppiumProofOfConcept/bin/iPhoneSimulator/Debug/AppiumProofOfConcept.app";
+			//current directory is appium app so we have to use this assembly to know where our target project app is
+			var uri = new UriBuilder (Assembly.GetExecutingAssembly ().CodeBase);
+			var assemblyDir = Uri.UnescapeDataString (uri.Path);
+			//appium requires absolute paths
+			var path = Regex.Replace (assemblyDir, @"(\/[^\/]*){4}$", "/AppiumProofOfConcept/bin/iPhoneSimulator/Debug/AppiumProofOfConcept.app");
+
 			DesiredCapabilities capabilities = getIos71Caps (path); 
 
 			Uri serverUri = new Uri ("http://127.0.0.1:4723/wd/hub");
@@ -74,6 +79,9 @@ namespace AppiumTests
 		[Test ()]
 		public void ComputeSumTestCase ()
 		{
+			if (driver == null)
+				Assert.Fail (System.IO.Directory.GetCurrentDirectory ());
+
 			const string DesiredText = "hello appium";
 			var textField = driver.FindElementByName ("ExampleTextField");
 			textField.Clear ();
